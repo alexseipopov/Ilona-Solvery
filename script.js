@@ -10,6 +10,3 @@ third.addEventListener("click", (e) => {
     e.stopPropagation()
     console.log(3)
 })
-
-let a = 10
-a = 5

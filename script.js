@@ -12,5 +12,6 @@ third.addEventListener("click", (e) => {
 })
 
 function super_puper() {
-    console.log("test")
+    var a = 10
+    return a
 }

@@ -10,7 +10,7 @@ third.addEventListener("click", (e) => {
     e.stopPropagation()
     console.log(3)
 })
-
+dfbqeb
 function super_puper() {
     var a = 10
     return a

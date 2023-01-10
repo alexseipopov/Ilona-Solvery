@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *|iv {
+            width: 300px;
+        }
+        .first {
+            width: 1000px;
+            height: 1000px;
+            background-color: chartreuse;
+        }
+        .first div:nth-child(2n) {
+
+        }
+        #first {
+            width: 500px;
+            height: 500px;
+            background-color: blanchedalmond;
+        }
+        #second {
+            width: 350px;
+            height: 350px;
+            background-color: aquamarine;
+        }
+        #third {
+            width: 150px;
+            height: 150px;
+            background-color: black;
+        }
+        #first, #second, #third {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div[my-atr="value"] {
+            background-color: brown;
+        }
+        /* 
+                * -> tag -> class -> class["src=..."] -> id 
+        */
+    </style>
+</head>
+<body>
+    <div my-atr="value" style="background-color: #ffaa00;" class="first">
+        <!-- id="first" -->
+        <div id="second">
+            <div id="third"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
